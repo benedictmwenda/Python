@@ -1,0 +1,2 @@
+print("Qaqa")
+print("SpecQ")
