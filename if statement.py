@@ -1,5 +1,5 @@
-eng = int(input("Eng: "))
-math = int(input("Math: "))
+# eng = int(input("Eng: "))
+# math = int(input("Math: "))
 
 # if math > eng:
 #     print("math is greater than eng")
@@ -19,5 +19,17 @@ math = int(input("Math: "))
 #     print("zero.")
 
 
-if not math > eng:
-    print("math is either less or equal to eng.")
+# if not math > eng:
+#     print("math is either less or equal to eng.")
+
+
+x = int(input("Please enter an integer: "))
+if x < 0:
+    x = 0
+    print("Negative change to zero.")
+elif x == 0:
+    print("Zero")
+elif x == 1:
+    print("Single")
+else:
+    print("More")

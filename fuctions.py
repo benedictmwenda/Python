@@ -19,7 +19,7 @@
 # qaqa()
 
 
-def add(math, eng):
+def add(math, eng):  # 'math, eng'==parameter
     return math + eng
 
 
